@@ -5,7 +5,11 @@
 		<meta charset="uf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<link rel="stylesheet" href="assets/css/modal.css" />
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
 	</head>
 	<body class="is-preload">
 
@@ -94,67 +98,87 @@
 				</div>
 			</article>
 
-		<!-- Portfolio -->
-			<article id="portfolio" class="wrapper style2">
-				<div class="container">
-					<header>
-						<h2><strong>Recent Work</strong></h2>
-					</header>
-					<div class="carousel">
-						<div class="carousel-slide">
-						  <img src="images/redBlackPottery.png" alt="Red and Black Pottery" class="slide active">
-						  <img src="images/greenPottery.png" alt="Green Pottery" class="slide">
-						  <img src="images/texturedPottery.png" alt="Textured Pottery" class="slide">
-						  <img src="images/goldPottery.png" alt="Gold Pottery" class="slide">
-						  <img src="images/marblePottery.png" alt="Marble Pottery" class="slide">
-						  <img src="images/mettalicPottery.png" alt="Metallic Pottery" class="slide">
-						  <img src="images/showTable.png" alt="Pottery show table" class="slide">
-						  <img src="images/register.png" alt="Ceramic Register" class="slide">
-						  <img src="images/redTexturedPottery.png" alt="Red Textured Pottery" class="slide">
-						  <img src="images/bronzePottery.png" alt="Bronze Pottery" class="slide">
-						  <img src="images/rose.png" alt="Ceramic Rose" class="slide">
-						</div>
-					</div>
+			<!-- Portfolio -->
+<article id="portfolio" class="wrapper style2">
+	<div class="container">
+		<header>
+			<h2><strong>Recent Work</strong></h2>
+		</header>
+		<div class="carousel">
+			<div class="carousel-slide">
+				<img src="images/redBlackPottery.png" alt="Red and Black Pottery" class="slide active">
+				<img src="images/greenPottery.png" alt="Green Pottery" class="slide">
+				<img src="images/texturedPottery.png" alt="Textured Pottery" class="slide">
+				<img src="images/goldPottery.png" alt="Gold Pottery" class="slide">
+				<img src="images/marblePottery.png" alt="Marble Pottery" class="slide">
+				<img src="images/mettalicPottery.png" alt="Metallic Pottery" class="slide">
+				<img src="images/showTable.png" alt="Pottery show table" class="slide">
+				<img src="images/register.png" alt="Ceramic Register" class="slide">
+				<img src="images/redTexturedPottery.png" alt="Red Textured Pottery" class="slide">
+				<img src="images/bronzePottery.png" alt="Bronze Pottery" class="slide">
+				<img src="images/rose.png" alt="Ceramic Rose" class="slide">
+			</div>
+		</div>
 
-					<div id="modal" class="modal">
-						<span class="close">&times;</span>
-						<img class="modal-content" id="modal-image" alt="Modal Image">
-					  </div>
-					  
-					<button class="nav-btn" id="prev-button">Previous</button>
-					<button class="nav-btn" id="next-button">Next</button>
+		<button class="nav-btn" id="prev-button">Previous</button>
+		<button class="nav-btn" id="next-button">Next</button>
 
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-comments"></span>
-								<h3>Ephemeral</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fa-camera-retro"></span>
-								<h3>Time Series</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-thumbs-up"></span>
-								<h3>Vessel Series</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-					</div>
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button large scrolly">Get in touch</a>
-					</footer>
+		<div class="row aln-center">
+			<div class="col-4 col-6-medium col-12-small">
+			  <section class="box style1">
+				<img src="images/Ephemeral/clockPlug.png" class="thumbnail" alt="Modal Image 1">
+				<h3>Ephemeral</h3>
+				<!-- Modal and Carousel Images -->
+				<div class="modal">
+				  <span class="modal-close">&times;</span>
+				  <div class="rotational-display">
+					<img src="images/Ephemeral/clockPlug.png" class="display-image" alt="Modal Image 1">
+					<img src="images/Ephemeral/eyeball.png" class="display-image" alt="Modal Image 2">
+					<img src="images/Ephemeral/gears.png" class="display-image" alt="Modal Image 3">
+					<img src="images/Ephemeral/plug.png" class="display-image" alt="Modal Image 4">
+					<img src="images/Ephemeral/plugZoom.png" class="display-image" alt="Modal Image 5">
+					<img src="images/Ephemeral/rxBottle.png" class="display-image" alt="Modal Image 6">
+				  </div>
 				</div>
-			</article>
+			  </section>
+			</div>
+	
+			<div class="col-4 col-6-medium col-12-small">
+			  <section class="box style1">
+				<img src="images/Time Series/arrow.png" class="thumbnail" alt="Modal Image 1">
+				<h3>Time Series</h3>
+				<!-- Modal and Carousel Images -->
+				<div class="modal">
+				  <span class="modal-close">&times;</span>
+				  <div class="rotational-display">
+					<img src="images/Time Series/arrow.png" class="display-image" alt="Modal Image 1">
+					<img src="images/Time Series/clock.png" class="display-image" alt="Modal Image 2">
+					<img src="images/Time Series/Compass.png" class="display-image" alt="Modal Image 3">
+					<img src="images/Time Series/sun.png" class="display-image" alt="Modal Image 4">
+				  </div>
+				</div>
+			  </section>
+			</div>
+	
+			<div class="col-4 col-6-medium col-12-small">
+			  <section class="box style1">
+				<img src="images/Vessel Series/BlueVessel.png" class="thumbnail" alt="Modal Image 1">
+				<h3>Vessel Series</h3>
+				<!-- Modal and Carousel Images -->
+				<div class="modal">
+				  <span class="modal-close">&times;</span>
+				  <div class="rotational-display">
+					<img src="images/Vessel Series/BlueVessel.png" class="display-image" alt="Modal Image 1">
+					<img src="images/Vessel Series/BrownVessel.png" class="display-image" alt="Modal Image 2">
+					<img src="images/Vessel Series/GreenVessel.png" class="display-image" alt="Modal Image 3">
+					<img src="images/Vessel Series/RedVessel.png" class="display-image" alt="Modal Image 4">
+					<img src="images/Vessel Series/TanVessel.png" class="display-image" alt="Modal Image 5">
+				  </div>
+				</div>
+			  </section>
+			</div>
+		  </div>	
+</article>
 
 		<!-- Contact -->
 			<article id="contact" class="wrapper style4">
@@ -206,13 +230,13 @@
 			</article>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/carousel.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/carousel.js"></script>
+		<script src="assets/js/modal.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>
